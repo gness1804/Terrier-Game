@@ -1,0 +1,19 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+	<h2>The Five Scottish Terrier Breeds</h2>
+	<input type="text" value="Scottish Terrier" id="def1"></input><br><br>
+	<input type="text" value="West Highland White Terrier" id="def2"></input><br><br>
+	<input type="text" placeholder="Starts with C" id="cand1"></input> &nbsp; <button id="cairn" onclick="VerifyC()">Submit</button><br><br>
+	<input type="text" placeholder="Starts with S" id="cand2"></input> &nbsp; <button id="skye" onclick="VerifyS()">Submit</button><br><br>
+	<input type="text" placeholder="Starts with D" id="cand3"></input> &nbsp; <button id="dandie" onclick="VerifyD()">Submit</button><br><br>
+	<button id="dock" onclick="Oops()">Tail Dock!</button><br><br>
+	<button id="final" onclick="Finale()">Finalize</button>
+	</div>
+	<iframe src="http://www.akc.org/embeds/breed-standard/west-highland-white-terrier" frameborder="0" width="80%" height="100%" id="frame1"></iframe>
+	<p id="cap">Courtesy of <a href="http://www.akc.org/dog-breeds/west-highland-white-terrier/" target="blank">American Kennel Club</a></p>
+</body>
