@@ -1,5 +1,6 @@
 body {
 	background-image: url("http://i50.tinypic.com/300wrwm.jpg");
+	font-family: Arial, sans-serif;
 }
 
 a:link {
@@ -34,20 +35,18 @@ a:hover {
 	padding: 10px;
 }
 
+.breed img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 150px;
+}
+
 #frame1 {
 	border: 3px solid black;
 	background-color: #f2f2f2;
 	margin-top: 20px;
-}
-
-.pseudo-link {
-  color: rgb(64, 37, 226);
-}
-
-.pseudo-link:hover {
-	color: red;
-  font-style: italic;
-	cursor: pointer;
 }
 
 #cap {
@@ -61,6 +60,13 @@ a:hover {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#toTop {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
 }
 
 @media (max-width: 400px) {
