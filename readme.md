@@ -1,0 +1,1 @@
+This site lists the five main breeds of terriers from Scotland and shows an iframe at bottom with the relevant information on the selected breed. It replaces my earlier "Terrier Game" in which users had to name all five breeds.

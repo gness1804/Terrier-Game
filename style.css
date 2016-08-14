@@ -1,15 +1,31 @@
 body {
 	background-image: url("http://i50.tinypic.com/300wrwm.jpg");
 }
-div {
+
+a:link {
+  text-decoration: none;
+  color: rgb(64, 37, 226);
+}
+
+a:visited {
+  color: rgb(232, 44, 219);
+}
+
+a:hover {
+  color: red;
+  font-style: italic;
+}
+
+.main {
 	border: 2px solid black;
-	background-color: #f2f2f2;	
+	background-color: #f2f2f2;
 	position: absolute;
 	left: 100px;
-	width: 800px; 
+	width: 800px;
 	text-align: center;
 	padding-bottom: 10px;
 }
+
 #frame1{
 	position: absolute;
 	left: 100px;
@@ -17,14 +33,26 @@ div {
 	top: 500px;
 	background-color: #f2f2f2;
 }
+
+.pseudo-link {
+  color: rgb(64, 37, 226);
+}
+
+.pseudo-link:hover {
+	color: red;
+  font-style: italic;
+	cursor: pointer;
+}
+
 #cap{
 	border: 1px solid black;
 	background-color: #f2f2f2;
 	position: absolute;
 	left: 100px;
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
 	top: 450px;
 }
+
 @media (max-width: 400px) {
 	body{
 		background-color: red;
